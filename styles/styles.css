@@ -97,18 +97,18 @@ main {
   height: 60vh;
 }
 
-main > form {
+main > .add-product {
   padding: 10px 20px 0px 20px;
   display: flex;
   flex-direction: column;
   font-size: var(--label-font-size);
 }
 
-form > label {
+.add-product > label {
   padding: 10px 10px 10px 0;
 }
 
-form input {
+.add-product input {
   padding: 8px;
   width: 10rem;
   border: none;
@@ -124,4 +124,8 @@ button {
   color: var(--header-color);
   text-align: center;
   font: inherit;
+}
+
+.shopping-cart.panaderia {
+  background-color: black;
 }

@@ -9,6 +9,7 @@
   --font-size: 0.9rem;
   --title-font-size: 0.5rem;
   --list-font-size: 0.6rem;
+  --label-font-size: 0.7rem;
 }
 
 *,
@@ -84,7 +85,33 @@ li {
 }
 
 main > h2 {
-  padding: 20px;
+  padding: 20px 0 0 20px;
   font-weight: bold;
   font-size: var(--font-size);
+}
+
+main {
+  background-color: var(--form-background-color);
+  width: 100vw;
+  height: 60vh;
+}
+
+main > form {
+  padding: 10px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--label-font-size);
+  font-weight: light;
+}
+
+form > label {
+  padding: 10px 10px 10px 0;
+}
+
+form input {
+  padding: 8px;
+  width: 10rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.3rem;
 }

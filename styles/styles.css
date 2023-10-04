@@ -101,7 +101,6 @@ main > form {
   display: flex;
   flex-direction: column;
   font-size: var(--label-font-size);
-  font-weight: light;
 }
 
 form > label {

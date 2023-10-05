@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de artículos añadidos a la compra">
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Lista de la compra</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <h1>Lista de la compra</h1>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="./index.html">Principal</a>
+        </li>
+        <li>
+          <a href="./lista.html">Lista</a>
+        </li>
+        <li>
+          <a href="">Acerca de</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <header class="sub-header">
+    <img class="icono" src="/images/circle-plus-white20px.svg" alt="icono de un circulo con un operando más dentro">
+    <span>2/3 comprados</span>
+  </header>
+  <main>
+    <form class="shopping-cart">
+      <label for="panaderia">
+        <span class="article">
+          <input type="checkbox" id="panaderia">
+          <span class="cross-out">Pan</span>
+        </span>
+        <span class="price">
+          <span class="cross-out">0.75</span>
+          <span>X</span>
+        </span>
+      </label>
+      <label for="edulcorante">
+        <span class="article">
+          <input type="checkbox" id="edulcorante">
+          <span>Azúcar</span>
+        </span>
+        <span class="price">
+          <span class="cross">X</span>
+        </span>
+      </label>
+      <label for="lacteos">
+        <span class="article">
+          <input type="checkbox" id="lacteos">
+          <span class="cross-out">Leche</span>
+        </span>
+        <span class="price">
+          <span class="cross-out">1.20</span>
+          <span>X</span>
+        </span>
+      </label>
+      <label for="veganos">
+        <span class="article">
+          <input type="checkbox" id="veganos">
+          <span>Tofu</span>
+        </span>
+        <span class="price">
+          <span>4.30</span>
+          <span>X</span>
+        </span>
+      </label>
+    </form>
+    <div class="horizontal-line"></div>
+    <h2 class="total-price">6,3 €</h2>
+  </main>
+</body>
+
+</html>

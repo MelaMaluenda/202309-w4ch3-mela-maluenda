@@ -11,6 +11,7 @@
   --title-font-size: 0.5rem;
   --list-font-size: 0.6rem;
   --label-font-size: 0.7rem;
+  --total-price-font-size: 1rem;
 }
 
 *,
@@ -99,7 +100,7 @@ main {
 }
 
 main > .add-product {
-  padding: 10px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   display: flex;
   flex-direction: column;
   font-size: var(--label-font-size);
@@ -141,9 +142,11 @@ button {
   margin-left: 10px;
   grid-row: 1/1;
   grid-column: 1/1;
+  cursor: pointer;
 }
 
 .price {
+  padding-left: 25px;
   margin-right: 10px;
   grid-row: 1/4;
   grid-column: 4/4;
@@ -163,4 +166,11 @@ button {
   max-width: 90vw;
   padding: 0;
   margin: 20px auto 0 auto;
+}
+
+main .total-price {
+  padding: 5px 20px;
+  font-size: var(--total-price-font-size);
+  font-weight: 300;
+  text-align: end;
 }
